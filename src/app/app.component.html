@@ -4,23 +4,31 @@
   </button>
   <span>Học Material</span>
   <span class="example-spacer"></span>
-  <button mat-icon-button>
+  <button mat-icon-button routerLink="./">
     <mat-icon>home</mat-icon>
   </button>
 </mat-toolbar>
+
 <mat-sidenav-container>
   <!-- mode: over, push, side -->
   <mat-sidenav [(opened)]="opened" mode="side">
-    <mat-list>
-      <mat-list-item><a routerLink="/dashboard">DashBoard</a></mat-list-item>
-      <mat-list-item><a routerLink="/danhmuc">Danh mục</a></mat-list-item>
-    </mat-list>
 
+
+    <!-- <mat-accordion> -->
+    <mat-expansion-panel>
+      <mat-expansion-panel-header>
+        <mat-panel-title>Section Two</mat-panel-title>
+      </mat-expansion-panel-header>
+      <mat-nav-list>
+        <mat-list-item><a routerLink="/dashboard">DashBoard</a></mat-list-item>
+        <mat-list-item><a routerLink="/danhmuc">Danh mục</a></mat-list-item>
+      </mat-nav-list>
+    </mat-expansion-panel>
+    <!-- </mat-accordion> -->
 
 
   </mat-sidenav>
   <mat-sidenav-content>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
-
 </mat-sidenav-container>

@@ -12,12 +12,15 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { MatListModule } from '@angular/material/list';
 import { DanhmucComponent } from './danhmuc/danhmuc.component';
+import { MatExpansionModule } from '@angular/material/expansion';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    DanhmucComponent
+    DanhmucComponent,
+    PagenotfoundComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +30,8 @@ import { DanhmucComponent } from './danhmuc/danhmuc.component';
     MatIconModule,
     MatToolbarModule,
     MatSidenavModule,
-    MatListModule
+    MatListModule,
+    MatExpansionModule
 
 
   ],
