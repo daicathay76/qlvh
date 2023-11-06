@@ -16,6 +16,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { MatInputModule } from '@angular/material/input';
     MatListModule,
     MatExpansionModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatSelectModule
 
 
   ],
