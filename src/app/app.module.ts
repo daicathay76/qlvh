@@ -14,6 +14,8 @@ import { MatListModule } from '@angular/material/list';
 import { DanhmucComponent } from './danhmuc/danhmuc.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatFormFieldModule,
+    MatInputModule
 
 
   ],

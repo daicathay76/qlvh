@@ -14,17 +14,19 @@
   <mat-sidenav [(opened)]="opened" mode="side">
 
 
-    <!-- <mat-accordion> -->
-    <mat-expansion-panel>
-      <mat-expansion-panel-header>
-        <mat-panel-title>Section Two</mat-panel-title>
-      </mat-expansion-panel-header>
-      <mat-nav-list>
-        <mat-list-item><a routerLink="/dashboard">DashBoard</a></mat-list-item>
-        <mat-list-item><a routerLink="/danhmuc">Danh mục</a></mat-list-item>
-      </mat-nav-list>
-    </mat-expansion-panel>
-    <!-- </mat-accordion> -->
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>Section Two</mat-panel-title>
+        </mat-expansion-panel-header>
+        <mat-nav-list>
+          <mat-list-item><a routerLink="/dashboard">DashBoard</a></mat-list-item>
+          <mat-list-item><a routerLink="/danhmuc">Danh mục</a></mat-list-item>
+        </mat-nav-list>
+      </mat-expansion-panel>
+    </mat-accordion>
+
+
 
 
   </mat-sidenav>
