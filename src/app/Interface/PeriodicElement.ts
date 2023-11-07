@@ -1,6 +1,8 @@
 export interface PeriodicElement{
-    name: string;
-    position: number;
-    weight: number;
-  symbol: string;
+    stt: number;
+    ma: string;
+    ten: string;
+    chucdanh: string;
+    phongban: string;
+    
 }
