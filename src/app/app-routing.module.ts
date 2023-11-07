@@ -1,18 +1,23 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { DanhmucComponent } from './danhmuc/danhmuc.component';
-import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { PhongbanComponent } from './danhmuc/phongban/phongban.component';
+import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
+import { NhanvienComponent } from './danhmuc/nhanvien/nhanvien.component';
+
 
 const routes: Routes = [
   {
     path: "dashboard", component: DashboardComponent
   },
   {
-    path: "pagenotfound", component: PagenotfoundComponent
+    path: "danhmuc/phongban", component: PhongbanComponent
   },
   {
-    path: "danhmuc", component: DanhmucComponent
+    path: "danhmuc/chucvu", component: ChucvuComponent
+  },
+  {
+    path: "danhmuc/nhanvien", component: NhanvienComponent
   }
 ];
 

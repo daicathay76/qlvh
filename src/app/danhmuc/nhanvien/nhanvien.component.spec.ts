@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DanhmucComponent } from './danhmuc.component';
+import { NhanvienComponent } from './nhanvien.component';
 
-describe('DanhmucComponent', () => {
-  let component: DanhmucComponent;
-  let fixture: ComponentFixture<DanhmucComponent>;
+describe('NhanvienComponent', () => {
+  let component: NhanvienComponent;
+  let fixture: ComponentFixture<NhanvienComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DanhmucComponent]
+      declarations: [NhanvienComponent]
     });
-    fixture = TestBed.createComponent(DanhmucComponent);
+    fixture = TestBed.createComponent(NhanvienComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
