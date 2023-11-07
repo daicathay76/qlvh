@@ -14,6 +14,7 @@ import { MatExpansionModule } from '@angular/material/expansion';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import {MatTableModule} from '@angular/material/table';
 import { NhanvienComponent } from './danhmuc/nhanvien/nhanvien.component';
 import { PhongbanComponent } from './danhmuc/phongban/phongban.component';
 import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
@@ -38,7 +39,8 @@ import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
     MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,
-    MatSelectModule
+    MatSelectModule,
+    MatTableModule,
 
 
   ],
