@@ -4,6 +4,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { PhongbanComponent } from './danhmuc/phongban/phongban.component';
 import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
 import { NhanvienComponent } from './danhmuc/nhanvien/nhanvien.component';
+import { NhomchiphiComponent } from './danhmuc/nhomchiphi/nhomchiphi.component';
+import { LoaichiphiComponent } from './danhmuc/loaichiphi/loaichiphi.component';
+import { HangmucComponent } from './danhmuc/hangmuc/hangmuc.component';
 
 
 const routes: Routes = [
@@ -18,6 +21,15 @@ const routes: Routes = [
   },
   {
     path: "danhmuc/nhanvien", component: NhanvienComponent
+  },
+  {
+    path: "danhmuc/nhomchiphi", component: NhomchiphiComponent
+  },
+  {
+    path: "danhmuc/loaichiphi", component: LoaichiphiComponent
+  },
+  {
+    path: "danhmuc/hangmuc", component: HangmucComponent
   }
 ];
 

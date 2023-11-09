@@ -18,6 +18,9 @@ import {MatTableModule} from '@angular/material/table';
 import { NhanvienComponent } from './danhmuc/nhanvien/nhanvien.component';
 import { PhongbanComponent } from './danhmuc/phongban/phongban.component';
 import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
+import { LoaichiphiComponent } from './danhmuc/loaichiphi/loaichiphi.component';
+import { NhomchiphiComponent } from './danhmuc/nhomchiphi/nhomchiphi.component';
+import { HangmucComponent } from './danhmuc/hangmuc/hangmuc.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +29,9 @@ import { ChucvuComponent } from './danhmuc/chucvu/chucvu.component';
     NhanvienComponent,
     PhongbanComponent,
     ChucvuComponent,
+    LoaichiphiComponent,
+    NhomchiphiComponent,
+    HangmucComponent,
   ],
   imports: [
     BrowserModule,
